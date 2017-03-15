@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8298277794,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.InitializeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4517989922,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginStep.i_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3324728642,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "LoginStep.i_enter_the_following_for_Login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "ramanakumar.sai@gmail.com",
+                  "anupama.413"
+                ],
+                "line": 8
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6521055348,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "LoginStep.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "I should close the browser",
+            "match": {
+              "location": "LoginStep.i_should_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "This feature deals with the login functionality of the application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

@@ -1,0 +1,12 @@
+Base\BaseUtil.class
+Base\ResultSheetHelper.class
+Base\BaseTest.class
+Transformation\EmailTransform.class
+pages\LoginPage.class
+steps\LoginStep.class
+Base\DataHelper.class
+steps\Hook\Hook.class
+steps\LoginStep$User.class
+Runner\TestRunner.class
+utilities\TestProperties.class
+utilities\Utilities.class
